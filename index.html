@@ -20,15 +20,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-sm-12 mx-auto">
-				<div class="content">
-					<h2>Generate password</h2>
+				<div class="card">
+					<div class="card-header">
+					<header>
+						<h2>Generate a Password</h2>
+					</header>
 					<br />
-					<h5>your secure password</h5>
-					<input type="text" id="display" />
-					<br />
-					<input type="range" min="o" max="50" name="slider" id="slider" />
-					<button onclick="generate()" type="button" class="btn btn-danger">Generate Password</button>
-					<div id="lenght"></div>
+					<div class="card-body">
+						<textarea readonly id="password" placeholder="Your Secure Password"
+							aria-label="Generated Password"></textarea>
+					
+						<input type="range" min="o" max="50" name="slider" id="slider" />
+					</div class="card-footer">
+					<button id="generate" class="btn">Generate Password</button>
+					
 				</div>
 			</div>
 		</div>
