@@ -5,4 +5,4 @@ Created my first and own password generator page giving the option to the user w
 ![Image](https://user-images.githubusercontent.com/65417908/101109508-10a42180-35a5-11eb-94ab-d65381027cab.jpg)
 
 # WORKING APP DEMO2
-![demo](../assets/images/demo.gif)
+![demo](demo.gif)
